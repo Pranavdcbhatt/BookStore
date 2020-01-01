@@ -1,0 +1,54 @@
+1.) Class - MainMenu 
+Method - main()	
+int choice -Stores the choice of user for calling a method according to the user’s preference.
+2.) Class - Academic
+[global]	double aprice -	Stores the total cost of books in Academic class chosen by the user.Method - 
+Method - Academic()	
+int std	- Stores the std. entered by the user to buy books accordingly.
+Method - Processing()	
+int course - Stores the course entered by the user to choose books accordingly in IX std.
+int course2	- Stores the course entered by the user to choose books accordingly in X std.
+3.) Class - AutoB()
+[global]	double price1,price2, price3, price4, price5 - They store the cost of books with respect to their sequence in reference numbers.
+Method - Input()	
+int choice - Stores the reference number of the book the user has chosen to buy.
+int q	- Stores the quantity of the chosen book by the user.
+4.) Class - S_F
+[global]	double price1,price2, price3, price4, price5 - They store the cost of books with respect to their sequence in reference numbers.
+Method - Input()
+int choice - Stores the reference number of the book the user has chosen to buy.
+int q	- Stores the quantity of the chosen book by the user.
+5.) Class - Horror
+[global]	double price1,price2, price3, price4, price5 - They store the cost of books with respect to their sequence in reference numbers.
+Method - Input()	
+int choice	- Stores the reference number of the book the user has chosen to buy.
+int q	- Stores the quantity of the chosen book by the user.
+6.) Class - Spiritual
+[global]	double price1,price2, price3, price4, price5 - They store the cost of books with respect to their sequence in reference numbers.
+Method - Input()	
+int choice - Stores the reference number of the book the user has chosen to buy.
+int q -	Stores the quantity of the chosen book by the user.
+7.) Class - A_A	
+[global]	double price1,price2, price3, price4, price5	They store the cost of books with respect to their sequence in reference numbers.
+Method - Input()
+int choice - Stores the reference number of the book the user has chosen to buy.
+int q	- Stores the quantity of the chosen book by the user.
+8.) Class - Billing
+Method - Academic()	
+double aprice	- Stores the price of books chosen by the user from the Academic books section.
+Method - AutoB()	
+double abprice - Stores the price of books chosen by the user from the Autobiographies and biographies books section.
+Method - S_F()	
+double sfprice - Stores the price of books chosen by the user from the Science-fiction books section.
+Method - Horror()
+ double hprice - Stores the price of books chosen by the user from the Horror books section.
+Method - Spiritual()	
+double sprice	- Stores the price of books chosen by the user from the Spiritual books section.
+Method - A_A()
+double aaprice - Stores the price of books chosen by the user from the Action and Adventure books section.
+Common/repeative variables in Billing() 
+double gst - Calculates the cost of GST applicable on the price of book with respect to section of selected book.
+double amount -	Calculates the amount of book selected in the respective section.
+int ramount	It is the rounded off figure of the payable bill amount (i.e. double amount) for customer’s convenience.
+int choice - Stores the choice input by the user whether to start the billing process or to exit the store.
+
