@@ -1,0 +1,68 @@
+# BookStore
+School Project
+
+Description	Class Methods ----
+MainMenu() [Description] -It is the main class which initiates the process of shopping for the user and a method of any class of a genre of books in the store is called via this class from its main method according to the choice of the user.	
+Class Methods : 
+•	main() [static]
+Academic() [Description] -Contains methods regarding academically related books and a Billing() method or a MainMenu() method is called according to the user’s choice via a method in this class.	
+Class Methods :
+•	Academic() [static]
+•	Processing() [non-static]
+AutoB()	[Description] - Contains methods regarding autobiographies and biographies and a Billing() method or a MainMenu() method is called according to the user’s choice via a method in this class.	
+Class Methods: 
+•	AutoB() [static]
+•	First() [non-static]
+•	Second() [non-static]
+•	Third() [non-static]
+•	Fourth() [non-static]
+•	Fifth() [non-static]
+•	Input() [non-static]
+S_F() [Description] -	Contains methods regarding Science-fiction genre’s books and a Billing() method or a MainMenu() method is called according to the user’s choice via a method in this class.	
+Class Methods : 
+•	AutoB() [static]
+•	Frankenstein() [non-static]
+•	IRobot() [non-static]
+•	Martian() [non-static]
+•	Ringworld() [non-static]
+•	Dispossessed () [non-static]
+•	Input() [non-static]
+Horror() [Description] - Contains methods Horror genre’s books and a Billing() method or a MainMenu() method is called according to the user’s choice via a method in this class.	
+Class Methods: 
+•	Horror() [static]
+•	Dracula() [non-static]
+•	THOHH () [non-static]
+•	It() [non-static]
+•	TheExorcist() [non-static]
+•	TSOTL() [non-static]
+•	Input() [non-static]
+Spiritual()	[Description] - Contains methods regarding Spiritual genre’s books and a Billing() method or a MainMenu() method is called according to the user’s choice via a method in this class.	
+Class Methods: 
+•	AutoB() [static]
+•	Monk() [non-static]
+•	LAS() [non-static]
+•	BG() [non-static]
+•	THB() [non-static]
+•	WWN() [non-static]
+•	Input() [non-static]
+A_A() [Description] -	Contains methods regarding Action and Adventure genre’s books and a Billing() method or a MainMenu() method is called according to the user’s choice via a method in this class.	
+Class Methods: 
+•	AutoB() [static]
+•	HP() [non-static]
+•	Journey() [non-static]
+•	Life() [non-static]
+•	Percy() [non-static]
+•	MazeRunner() [non-static]
+•	Input() [non-static]
+Billing()	[Description] - It is the final class of the process of shopping by the user and contains methods to calculate the bill amount and display the user’s bill.	
+Class Methods:
+•	Academic() [static]
+•	AutoB() [static]
+•	S_F() [static]
+•	Horror() [static]
+•	Spiritual() [static]
+•	A_A() [static]
+
+
+
+
