@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Billing
+comment1.params=aprice
+comment1.target=void\ Academic(double)
+comment2.params=abprice
+comment2.target=void\ AutoB(double)
+comment3.params=sfprice
+comment3.target=void\ S_F(double)
+comment4.params=hprice
+comment4.target=void\ Horror(double)
+comment5.params=sprice
+comment5.target=void\ Spiritual(double)
+comment6.params=aaprice
+comment6.target=void\ A_A(double)
+numComments=7
