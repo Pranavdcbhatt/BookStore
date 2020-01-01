@@ -1,0 +1,49 @@
+1.) Class - MainMenu
+main()	Calling of methods from another class according to the user or exit the store takes place in this method.
+2.) Class - Academic()
+Academic()	It’s purpose is to ask, store and pass on the value entered by the user about their std. to Processing() method or return back to main() method in MainMenu() class.
+Processing()	It accepts the value of std. from Academic() method and accordingly passes on the price of book set linked with std. to Academic() method in Billing() class for billing processes.
+3.) Class - AutoB
+AutoB()	It’s purpose is to call the non-static methods of the AutoB() class
+First()	It displays the details of the first book in the Autobiographies and biographies section.
+Second()	It displays the details of the second book in the Autobiographies and biographies section.
+Third()	It displays the details of the third book in the Autobiographies and biographies section.
+Fourth()	It displays the details of the fourth book in the Autobiographies and biographies section.
+Fifth()	It displays the details of the fifth book in the Autobiographies and biographies section.
+Input()	It calculates and passes on the price of the book according to the quantity entered by the user to AutoB() method in Billing() class for billing processes.
+4.) Class - S_F
+First()	It displays the details of the first book in the Science-fiction section.
+Second()	It displays the details of the second book in the Science-fiction  section.hird()	It displays the details of the third book in the Science-fiction section.
+Fourth()	It displays the details of the fourth book in the Science-fiction section.
+Fifth()	It displays the details of the fifth book in the Science-fiction section.
+Input()	It calculates and passes on the price of the book according to the quantity entered by the user to S_F() method in Billing() class for billing processes.
+5.) Class - Horror
+First()	It displays the details of the first book in the Horror section.
+Second()	It displays the details of the second book in the Horror section.
+Third()	It displays the details of the third book in the Horror section.
+Fourth()	It displays the details of the fourth book in the Horror section.
+Fifth()	It displays the details of the fifth book in the Horror section.
+Input()	It calculates and passes on the price of the book according to the quantity entered by the user to Horror() method in Billing() class for billing processes.
+6.) Class - Spiritual
+First()	It displays the details of the first book in the Spiritual section.
+Second()	It displays the details of the second book in Spiritual section.
+Third()	It displays the details of the third book in the Spiritual section.
+Fourth()	It displays the details of the fourth book in the Spiritual section.
+Fifth()	It displays the details of the fifth book in the Spiritual section.
+Input()	It calculates and passes on the price of the book according to the quantity entered by the user to Spiritual () method in Billing() class for billing processes.
+7.) Class - A_A	
+First()	It displays the details of the first book in the Action and Adventure section.
+Second()	It displays the details of the second book in the Action and Adventure section.
+Third()	It displays the details of the third book in Action and Adventure section.
+It displays the details of the fourth book in the Action and Adventure section.
+Fifth()	It displays the details of the fifth book in the Action and Adventure section.
+Input()	It calculates and passes on the price of the book according to the quantity entered by the user to A_A() method in Billing() class for billing processes.
+8.) Class - Billing
+Academic()	It accepts the price value from Processing() method in Academic() class and calculates ad displays the bill of the user or let’s the user exit the store.
+AutoB()	It accepts the price value from Input() method in AutoB() class and calculates ad displays the bill of the user or let’s the user exit the store.
+S_F()	It accepts the price value from Input() method in S_F() class and calculates ad displays the bill of the user or let’s the user exit the store.
+Horror()	It accepts the price value from Input() method in Horror() class and calculates ad displays the bill of the user or let’s the user exit the store.
+Spiritual()	It accepts the price value from Input() method in Spiritual() class and calculates ad displays the bill of the user or let’s the user exit the store.
+A_A()	It accepts the price value from Input() method in A_A() class and calculates ad displays the bill of the user or let’s the user exit the store.
+
+
